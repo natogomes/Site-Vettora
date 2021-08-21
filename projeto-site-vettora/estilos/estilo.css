@@ -5,27 +5,37 @@
     padding: 0px;
 }
 :root {
-    --corback: rgb(61, 61, 61);
-    --cormain: rgba(0, 0, 0, 0.420);
-    --cornav: rgba(44, 44, 44, 0.42);
+    --corback: rgb(73, 73, 73);
+    --cormain: rgb(48, 48, 48);
+    --cornav: rgb(44, 44, 44);
     --corlaranja: rgb(194, 81, 5);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--corback);
+    padding-top: 168px;
 }
-header {
+
+header.pai {
+    position: relative;
+}
+
+header.filho {
     background-image: linear-gradient(to bottom, var(--corback) 50%, var(--cormain));
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
-header > nav {
+header.filho > nav {
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
-header a {
+header.filho a {
     margin: auto 20px;
     text-decoration: none;
     color: white;
@@ -45,6 +55,7 @@ header a:hover {
 header a:active {
     color: white;
 }
+
 section#cabeca {
     max-width: 1000px;
     min-width: 280px;
@@ -60,7 +71,7 @@ main {
     min-width: 280px;
     margin: auto;
     background-color: var(--cormain);
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     padding: 15px;
 }
 
@@ -89,19 +100,24 @@ main#contato {
 }
 
 a.redes {
-    color: white;
-    text-decoration: none;
     margin-right: 15px;
-}
-
-a.redes:hover {
-    color: rgb(48, 48, 48);
-    background-color: var(--corlaranja);
+    text-decoration: none;
+    color: white;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.514);
     font-weight: bold;
     border-radius: 3px;
-    padding: 6px;
+    padding: 3px;
     transition-duration: .1s;
+}
+
+a.redes:hover {
+    background-color: rgb(255, 115, 0);
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+}
+
+a.redes:active {
+    color: white;
 }
 
 p#aline {
