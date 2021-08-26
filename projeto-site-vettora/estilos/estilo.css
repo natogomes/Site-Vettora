@@ -68,16 +68,11 @@ section#cabeca > img {
 }
 main {
     max-width: 800px;
-    min-width: 280px;
+    min-width: 100px;
     margin: auto;
     background-color: var(--cormain);
     border-radius: 0px 0px 10px 10px;
     padding: 15px;
-}
-
-
-main#index img {
-    width: 100%;
 }
 
 main#industrial > h2 {
@@ -137,10 +132,19 @@ p#aline >a:hover {
 
 div.imgs {
     display: inline-block;
-    width: 37%;
+    width: 200px;
+    height: 200px;
     margin: 5px;
-    padding: 10px 10px 8px 10px;
+    padding: 10px;
     border: 8px solid var(--corlaranja);     
+}
+
+div.imgs img {
+    height: 100%;
+}
+
+nav#imagens {
+    text-align: center;
 }
 
 p.moveis {
@@ -148,10 +152,6 @@ p.moveis {
     margin-bottom: 15px;
     text-indent: 25px;
     text-align: justify;
-}
-
-nav#imagens {
-    text-align: center;
 }
 
 a#voltar {
