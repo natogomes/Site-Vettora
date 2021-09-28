@@ -78,10 +78,10 @@ main {
     margin: auto;
     background-color: var(--cormain);
     border-radius: 0px 0px 10px 10px;
-    padding: 15px;
+    padding: 20px;
 }
 
-main#industrial > h2 {
+main#industrial  h2 {
     color: var(--corlaranja);
 
 }
@@ -112,6 +112,18 @@ div.contato {
     display: flex;
     align-items: center;
 }
+section.artigo-empresa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.artigo-empresa img {
+    border-radius: 50%;
+}
+article.artigo {
+    max-width: 530px;
+}
 
 a.redes {
     margin: 0px;
@@ -136,7 +148,7 @@ a.redes:active {
 
 p#aline {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 p#aline > a {
@@ -171,6 +183,7 @@ p.moveis {
     margin-bottom: 15px;
     text-indent: 25px;
     text-align: justify;
+    line-height: 25px;
 }
 
 a#voltar {
@@ -203,6 +216,10 @@ div.voltar {
 ul.lista {
     list-style-position: inside;
     color: white;
+    
+}
+ul.lista > li {
+    margin-bottom: 12px;
 }
 
 footer {
