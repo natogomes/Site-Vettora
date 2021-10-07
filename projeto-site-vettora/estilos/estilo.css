@@ -13,7 +13,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--corback);
-    padding-top: 165px;
+    padding-top: 164px;
 
 }
 
@@ -22,7 +22,7 @@ header.pai {
 }
 
 header.filho {
-    background-image: linear-gradient(to bottom, var(--corback) 50%, var(--cormain));
+    background-image: linear-gradient(to bottom, var(--corback) 35%, var(--cormain));
     position: fixed;
     top: 0px;
     left: 0px;
@@ -30,7 +30,7 @@ header.filho {
 }
 
 header.filho a {
-    margin: 0px 10px;
+    margin: auto;
     text-decoration: none;
     color: white;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.514);
@@ -51,30 +51,28 @@ header a:active {
 }
 nav.links-prin {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     max-width: 800px;
     margin: auto;
     text-align: center;
+
 }
 .links-prin a {
     display: block;
     font-size: 0.9em;
+
 }
 
 section#cabeca {
     max-width: 1000px;
-    min-width: 280px;
     margin: auto;
     margin-top: 8px;
 }
 
-section#cabeca > img {
+section#cabeca img {
     width: 100%;
 }
 main {
     max-width: 800px;
-    min-width: 100px;
     margin: auto;
     background-color: var(--cormain);
     border-radius: 0px 0px 10px 10px;
@@ -225,7 +223,6 @@ ul.lista > li {
 footer {
     background-color: var(--cormain);
     max-width: 800px;
-    min-width: 280px;
     text-align: center;
     margin: auto;
     margin-top: 10px;
@@ -246,3 +243,11 @@ footer a:hover {
     color: var(--corlaranja);
 }
 
+
+@media(max-width: 600px) {
+    .filho a {
+        font-size: 0.7em;
+        padding: 1.2px;
+    }
+
+}
