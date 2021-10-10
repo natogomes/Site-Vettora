@@ -79,6 +79,7 @@ main {
     padding: 20px;
 }
 
+
 main#industrial  h2 {
     color: var(--corlaranja);
 
@@ -110,6 +111,37 @@ div.contato {
     display: flex;
     align-items: center;
 }
+
+nav#lista_produtos {
+    list-style-position: inside;
+    
+}
+
+nav#lista_produtos a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    border-radius: 8px;
+    transition-duration: .1s;
+    
+}
+nav#lista_produtos a:hover {
+    background-color: rgb(255, 115, 0);
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+    
+}
+nav#lista_produtos a:active {
+    color: white;
+}
+
+nav#lista_produtos li {
+    margin-bottom: 12px;
+
+}
+
 section.artigo-empresa {
     display: flex;
     justify-content: space-around;
