@@ -13,7 +13,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--corback);
-    padding-top: 164px;
+    padding: 164px 10px;
 
 }
 
@@ -66,6 +66,7 @@ section#cabeca {
     max-width: 1000px;
     margin: auto;
     margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 section#cabeca img {
@@ -118,6 +119,7 @@ nav#lista_produtos {
 }
 
 nav#lista_produtos a{
+
     display: block;
     color: white;
     text-decoration: none;
@@ -139,6 +141,7 @@ nav#lista_produtos a:active {
 
 nav#lista_produtos li {
     margin-bottom: 12px;
+    padding: 3px;
 
 }
 
@@ -260,7 +263,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 5px 20px;
 
 }
 
@@ -280,6 +283,12 @@ footer a:hover {
     .filho a {
         font-size: 0.7em;
         padding: 1.2px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(--corback);
+        padding-top: 133px;
+    
     }
 
 }
