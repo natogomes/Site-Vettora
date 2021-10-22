@@ -99,11 +99,12 @@ main#contato {
     color: white;
 }
 nav.contatos {
-    margin: auto;
+    margin: 5px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 div.contato {
     border: 4px solid var(--corback);
     border-radius: 15px;
@@ -286,8 +287,15 @@ footer a:hover {
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: var(--corback);
-        padding-top: 124px;
+        padding-top: 119px;
     
+    }
+    #img-empresa {
+        margin-bottom: 10px;
+    }
+    .contatos {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
