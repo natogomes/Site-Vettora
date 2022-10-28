@@ -32,22 +32,21 @@ header.filho {
 .links-p {
     margin: auto;
     text-decoration: none;
-    border: 2px solid var(--corback);
+    border: 2px solid rgb(90, 90, 90);
     color: white;
-    display: block;
     font-size: 0.9em; 
     border-radius: 50px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.719);
     padding: 5px;
     transition-duration: .1s;
-    transform: translate(0%, -20%);
+    transform: translate(0%, -25%);
 
 }
 
 .links-p:hover {
     font-weight: bold;
     background-color: rgb(255, 115, 0);
-    color: rgb(48, 48, 48);
+    color: rgb(0, 0, 0);
 }
 
 .links-p:active {
@@ -257,9 +256,8 @@ footer {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 5px 20px;
-
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
 }
 
 footer a {
@@ -272,6 +270,26 @@ footer a:hover {
     text-decoration: underline;
     color: var(--corlaranja);
 }
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    padding: 15px;
+}
+
+div.local {
+    max-width: 800px;
+}
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 600px) {
@@ -291,5 +309,9 @@ footer a:hover {
     .contatos {
         flex-direction: column;
         align-items: center;
+    }
+
+    footer p {
+        font-size: 00.7em;
     }
 }
