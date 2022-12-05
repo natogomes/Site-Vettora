@@ -185,6 +185,7 @@ nav#lista_produtos a{
 nav#lista_produtos a:hover {
     background-color: rgb(255, 115, 0);
     text-decoration: none;
+    text-shadow: none;
     color: rgb(48, 48, 48);
     
 }
