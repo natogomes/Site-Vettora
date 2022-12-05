@@ -15,15 +15,17 @@ img {
     width: 100vw;
 }
 
-a {
-    display: block;
-    background-color: darkred;
-    padding: 20px;
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: none;
-    color: white;
+img.click {
+    width: auto;
+    border-radius: 50%;
 }
-a:hover {
-    background-color: red;
+
+a {
+    padding-top: 4px;
+    display: block;
+    background-color: rgb(194, 81, 5);
+    text-align: center;
+}
+img.click:hover {
+    box-shadow: 0px 0px 10px white;
 }
